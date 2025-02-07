@@ -80,7 +80,7 @@ If you experience any errors while trying to install kickstart, run `:checkhealt
 I hope you enjoy your Neovim journey,
 - TJ
 
-P.S. You can delete this when you're done too. It's your config now! :)
+etP.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
 -- Set <space> as the leader key
@@ -551,9 +551,6 @@ require('lazy').setup({
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
         --    https://github.com/pmizio/typescript-tools.nvim
-        --
-        -- But for many setups, the LSP (`tsserver`) will work just fine
-        tsserver = {},
         --
 
         lua_ls = {
